@@ -3,168 +3,155 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Antonio Ivanovsi
-    tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Antonio Ivanovsi
+  tagline: Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@tote.mk
-    phone:
-    citizenship:
-    website: blog.tote.mk #do not add http://
-    linkedin: antonioivanovski
-    github: toteto
-    telegram: antoniotote
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+  # Sidebar links
+  email: hello@tote.mk
+  phone:
+  citizenship:
+  website: blog.tote.mk #do not add http://
+  linkedin: antonioivanovski
+  github: toteto
+  telegram: antoniotote
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
 
-    languages:
-      - idiom: Macedonian
-        level: Native
+  languages:
+    - idiom: Macedonian
+      level: Native
 
-      - idiom: English
-        level: Professional
+    - idiom: English
+      level: Professional
 
-    interests:
-      - item: Paragliding   
-        link:
+  interests:
+    - item: Paragliding
+      link:
 
-      - item: Hiking
-        link:
+    - item: Hiking
+      link:
 
-      - item: Skiing
-        link:
+    - item: Skiing
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: >
+    My name is Antonio, but everyone calls me Tote. I am passionate software
+    engineer with over 5 years of professional working experience.
+
+    My first few years of experience were dedicated to the Android ecosystem
+    where I learned the basics and got a chance to try out also my leadership
+    skills.
+
+    Wanting to broaden and diversify my knowledge and work experience, switched
+    to web development where my primary focus was working on frontend with also
+    being exposed to the backend and infrastructure.
 education:
-    - degree: Bachelor of Computer Science
-      university: Faculty of Computer Science and Engineering
-      time: 2012 - 2018
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - degree: Bachelor of Computer Science
+    university: Faculty of Computer Science and Engineering
+    time: 2012 - 2018
 experiences:
-    - role: Software Engineer
-      time: Oct 2019 - Oct 2021
-      company: H4, Skopje
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Android Software Engineer
-      time: May 2016 - Oct 2019
-      company: Netcetera, Skopje
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - role: Software Engineer
+    time: Oct 2019 - Oct 2021
+    company: H4, Skopje
+    details: >
+      Member of self-sufficient team responsible for development of  internal
+      highly performant and extensible WYSIWYG (what you see is what you get)
+      web editor used for viewing and editing of documents by all the users on
+      the platform, completely developed from scratch using React and Typescript
+      and state managed with MobX. Collaboration with other teams and
+      implementation of cross-team features and improvements.
+  - role: Android Software Engineer
+    time: May 2016 - Oct 2019
+    company: Netcetera, Skopje
+    details: >
+      Team lead for the development of Android SDK product for gathering data
+      for purposes of fraud detection, multiple cryptography algorithms and
+      encryption of transactions for making online payments more secure.
+      Implementation done by following strict specification, leading the process
+      of going through all the steps of getting the SDK certified by the
+      specification provider. Member of team responsible for the development of
+      white-label banking Android application with integration for over 50 Swiss
+      banks, all with customizations of their own. Member of team responsible
+      for implementation of solution for banking Android application that offers
+      users to make contactless payments with their phone by digitizing their
+      payment card in the banking application. Intern mentor of Android and iOS
+      developers for making applications that visualizes crowdsourced data
+      provided by the pulse.eco platform.
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    When I am learning new technology or want to gain more experience in a
+    certain technology, I learn by doing, so what would I do is pickup "pet"
+    project. Here are some notable mentions:
+  assignments:
+    - title: Една е мајка!
+      link: "https://ednaemajka.mk"
+      tagline: >
+        Marketplace for homemade products that I developed as a community
+        project for helping individual makers of homemade products have an
+        easier time displaying their products in the beginning of the COVID-19
+        pandemic. In the process I learned a lot about React, Next.JS, Firebase
+        and Google Cloud.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: pulse.eco Android
+      link: "https://pulse.eco"
+      tagline: >
+        Lead team of Android, iOS and design interns for the development of the
+        mobile applications used by the platforms. Available on Play Store and
+        App Store.
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro:
+  papers:
+    - title:
+        "Article: How to get list of all ERC20 tokens held by wallet using
+        web3.js"
+      link: "https://medium.com/@antonioivanovski_20749/how-to-get-list-of-all-erc20-tokens-held-by-wallet-using-web3-js-e5cdc7cc129a"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: "Back in the days, developers used to write boilerplate code"
+      link: "https://jugmk.verify.it/attainr/credential-detail/credential-detail/credential-detail/342158db-3b05-488a-8400-977c42b8565d"
+      conference: "JavaSkop 2019 · Mar 30, 2019"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: JavaSript & TypeScript
-        level: 90%
+  toolset:
+    - name: JavaSript & TypeScript
+      level: 90%
 
-      - name: React
-        level: 85%
+    - name: React
+      level: 85%
 
-      - name: Next.js
-        level: 60%
-      
-      - name: Node
-        level: 70%
+    - name: Next.js
+      level: 60%
 
-      - name: Java & Kotlin
-        level: 85%
+    - name: Node
+      level: 70%
 
-      - name: Android
-        level: 70%
+    - name: Java & Kotlin
+      level: 85%
 
-      - name: Web3 stack
-        level: 30%
+    - name: Android
+      level: 70%
+
+    - name: Web3 stack
+      level: 30%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a
+  href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying
+  Riley</a>
